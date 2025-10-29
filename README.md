@@ -1,4 +1,11 @@
 # React + Vite
+1) The fonts are  downloaded from the web adn it will work on every browser and computer.
+
+
+
+
+
+<!-- ------------- -->
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
