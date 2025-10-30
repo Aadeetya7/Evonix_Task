@@ -1,10 +1,15 @@
-# React + Vite
+## React + Vite
 1) The fonts are  downloaded from the web adn it will work on every browser and computer.
+2) For the icons i have used react icons.
+3) have used slick slider for teh slider and the carousel 
+4) have used React router for the routing though there is no routing but still i have demonstrated how react router is used.
+5) Used tailwind for styling and made responsive  till 320px the last minimum  screen size
 
 
 
 
-
+## for Starting the project use
+1) npm run dev
 <!-- ------------- -->
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,19 +1,37 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "Agency FB";
-  src: url("/src/assets/fonts/agency-fb-bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Agency FB";
+    src: url("/src/assets/fonts/agency-fb-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Agency FB";
-  src: url("/src/assets/fonts/agency-fb-regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Agency FB";
+    src: url("/src/assets/fonts/agency-fb-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @theme {
-  --font-agency: "Agency FB", "Arial Narrow", sans-serif;
+    --font-agency: "Agency FB", "Arial Narrow", sans-serif;
+}
+
+@layer utilities {
+    .nav-link {
+        @apply flex justify-center font-agency font-normal w-full uppercase text-[18px] lg:text-[20px] text-[#000000] lg:px-2 md:px-1 ;
+    }
+
+    .nav-link:last-of-type {
+        @apply md:pr-9 lg:pr-[90px] ;
+    }
+
+    .container-fluid {
+        @apply max-w-[1200px] mx-auto px-2;
+    }
+
+    .book-buttons{
+        @apply px-10 py-3 rounded-[10px] text-white font-agency font-normal bg-[#438029]  cursor-pointer
+    }
 }

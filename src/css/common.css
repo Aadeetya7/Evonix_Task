@@ -1,0 +1,42 @@
+.about-slider .slick-dots li button:before {
+    color: white;
+    font-size: 6px;
+}
+
+@media (min-width:767px) {
+    .about-slider .slick-dots li button:before {
+    color: white;
+    font-size: 10px;
+}
+}
+@media (min-width:1024px) {
+    .about-slider .slick-dots li button:before {
+    color: white;
+    font-size: 16px;
+}
+}
+
+.about-slider .slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.about-slider .slick-dots{
+    bottom: 12px;
+    display: flex !important;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.about-slider .slick-dots li{
+    margin: 0;
+}
+
+
+/* for events */
+.upcoming-events .slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.upcoming-events .slick-prev:before,.slick-next:before{
+    color: #D1D1D1;
+}
